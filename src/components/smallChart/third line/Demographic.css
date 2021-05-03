@@ -16,6 +16,9 @@
 }
 
 .demographic{
+    margin: 0px;
+    padding-left: 15px;
+    padding-top: 15px;
     height: 18px;
     width: 96px;
     color: #111;
@@ -28,4 +31,9 @@
 
 .Demomain{
     display: flex;
+}
+
+.demo-graph-date{
+    padding-left: 508px;
+    padding-top: 10px;
 }

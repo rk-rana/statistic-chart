@@ -21,6 +21,9 @@ function BarChart() {
 const options ={
   responsive: true,
   maintainAspectRatio: false,
+  legend: {
+    display: false
+  }
 }
 
 
@@ -30,7 +33,7 @@ const options ={
   return (
     <><div className="agebarchart">
     <div className="age">
-      <h1 className="agetext">Active Hours</h1>
+      <h1 className="agetext">Age</h1>
           </div>
       
       <div className="agebar">

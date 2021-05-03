@@ -13,7 +13,7 @@ function Demographic() {
         <div className="demographic-date">
           <h1 className="demographic">Demographic</h1>
           <div className="demo-graph-date">
-            <Date></Date>
+            <Date/>
           </div>
         </div>
         <div className="Demomain">

@@ -23,6 +23,9 @@ function BarChart() {
 const options ={
   responsive: true,
   maintainAspectRatio: false,
+  legend: {
+    display: false
+  }
 }
 
 
