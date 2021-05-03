@@ -1,0 +1,61 @@
+.listed-profile {
+    height: 1146px;
+    width: 1180px;
+    background-color: #FFF;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.05);
+  }
+
+  .rect-guitar {
+    height: 50px;
+    width: 141px;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.05);
+  }
+
+  .rectangle-big {
+    height: 1106px;
+    width: 1180px;
+    border-radius: 7px;
+    background-color: #FFF;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.05);
+  }
+
+  /* .rectangle-9 {
+    box-sizing: border-box;
+    height: 336px;
+    width:100%;
+    border-radius: 7px;
+    background-color: #FFF;
+    border: 1px solid #EEE;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.05);
+  } */
+
+
+  .guitar{
+    padding-left: 46px;
+    padding-top: 9px;
+    height: 20px;
+    width: 50px;
+    color: #0C324F;
+    font-family: "Google Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
+
+  .doughtNut{
+    height: 174px;
+  }
+
+  .rectangle-5{
+    padding-right: 30px;
+  }
+
+  /* .rect-between{
+    padding-top: 61px;
+    height: 260px;
+    width: 1px;
+    background-color: #EEE;
+  } */

@@ -1,0 +1,106 @@
+/* @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext'); */
+
+.rectangle-8 {
+  box-sizing: border-box;
+  height: 345px;
+  width: 309px;
+  border-radius: 7px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.05);
+}
+
+.number-of-students {
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  height: 18px;
+  width: 131px;
+  color: #111;
+  font-family: "Google Sans serif";
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 18px;
+}
+.pie {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.dateBox {
+  display: flex;
+}
+
+.date {
+  padding-top: 18px;
+  padding-left: 35px;
+}
+
+.pieChart {
+  display: inline-flex;
+}
+
+.currentStudent {
+  padding-top: 51px;
+  padding-left: 23px;
+  height: 40px;
+  width: 56px;
+  color: #0c324f;
+  font-family: "Google Sans";
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.pastStudent {
+  padding-top: 51px;
+  height: 40px;
+  width: 31px;
+  color: #005c79;
+  font-family: "Google Sans";
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.pieStyle {
+  padding-top: 51px;
+  width: 150px;
+  height: 150px;
+}
+
+.numberRow {
+  display: inline-block;
+}
+
+
+.total{
+    padding-left: 110px;
+    height: 43px;
+    width: 89px;
+    color: #333;
+    font-family: "Google Sans";
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.label{
+  padding-left: 100px;
+  padding-bottom: 20px;
+  height: 15px;
+  width: 112px;
+  display: flex;
+}
+
+
+.labels{
+  padding-right: 31px;
+  height: 15px;
+  width: 42px;
+  color: #333;
+  font-family: "Google Sans";
+  font-size: 12px;
+  line-height: 15px;
+}

@@ -1,0 +1,34 @@
+.dln{
+    box-sizing: border-box;
+    height: 336px;
+    width: 491px;
+    border-radius: 7px;
+    background-color: #FFF;
+    border: 1px solid #EEE;
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 5%);
+}
+
+.rect-8{
+    padding-top: 30px;
+}
+
+.dateBox {
+    display: flex;
+  }
+  
+  .date-doughnut {
+    padding-top: 18px;
+    padding-left: 229px;
+  }
+
+  .demo{
+    padding-top: 15px;
+    padding-left: 10px;
+    height: 18px;
+    width: 117px;
+    color: #111;
+    font-family: "Google Sans";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+  }

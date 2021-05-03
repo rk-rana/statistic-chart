@@ -1,0 +1,48 @@
+.mainDate {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 31px;
+    width: 118px;
+    border-radius: 3px;
+    background-color: #FFF;
+    border: 1px solid #EEE;
+  }
+
+  .dayBox{
+      display:flex;
+
+  }
+
+  .day{
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-right: 10px;
+    height: 29px;
+    width: 29px;
+    color: #333;
+    font-family: "Google Sans";
+    font-size: 10px;
+    line-height: 10px
+  }
+
+  .days_box{
+    height: 29px;
+    width: 29px;
+    border-radius: 2px;
+    background-color: #FFF;
+  }
+  .days_box:hover{
+    background-color:#0C324F;
+  }
+.active{
+  background-color:#0C324F;
+}
+
+.actives{
+  color: #FFF;
+}
+  .day:hover{
+    color:#FFF;
+
+  }
+

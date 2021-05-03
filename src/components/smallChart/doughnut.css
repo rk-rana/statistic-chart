@@ -1,0 +1,107 @@
+.doughnut{
+    /* padding-top: 58px; */
+    padding-left: 20px;
+    height: 174px;
+    width: 174px;
+
+  }
+
+
+.dayDate{
+    padding-left: 66px;
+    padding-top: 28px;
+    height: 25px;
+    width: 82px;
+    color: #333;
+    font-family: "Google Sans";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+}
+
+.attend-demo{
+    margin: 0px;
+    height: 30px;
+    width: 88px;
+    color: #8CDA7C;
+    font-family: "Google Sans";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center;
+}
+.attend{
+    display: flex;
+}
+
+.attend-enroll{
+    padding-left: 35.5px;
+    margin: 0px;
+    height: 15px;
+    width: 65px;
+    color: #00888E;
+    font-family: "Google Sans";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center;
+}
+
+.dough-label{
+    padding-left: 42px;
+    padding-bottom: 20px;
+    height: 15px;
+    width: 112px;
+    display: flex;
+  }
+  
+
+
+.labell-enroll{
+
+    padding-left: 31px;
+    display: flex;
+    align-items: baseline;
+}
+
+.labell-demo{
+
+    display: flex;
+    align-items: baseline;
+}
+
+  .dough-enroll-labels{
+    display: contents;
+    height: 15px;
+    width: 42px;
+    color: #333;
+    font-family: "Google Sans";
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .dough-demo-labels{
+    
+    display: contents;
+    height: 15px;
+    width: 39px;
+    color: #333;
+    font-family: "Google Sans";
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .dough-demo-dot{
+    width: 9px;
+    height: 9px;
+    background: #00888E;
+    border-radius: 50%;
+  }
+
+  .dough-enroll-dot{
+    height: 9px;
+    width: 9px;
+    background-color: #8CDA7C;
+    border-radius: 50%;
+  }
+
