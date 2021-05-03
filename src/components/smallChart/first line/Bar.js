@@ -1,7 +1,7 @@
 import React,{ useState } from "react";
 import { Bar } from "react-chartjs-2";
-import "./chart.css";
-import Date from "./dateRect"
+import "./bar.css";
+import Date from "../date/dateRect"
 
 function BarChart() {
   // const [{ data1, data2, data3 }, dispatch] = useStateValue();
@@ -9,16 +9,12 @@ function BarChart() {
     labels: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6"],
     datasets: [
       {
-        label: "# of Red Votes",
-        data: [12,,8,46,25,58,45],
-        backgroundColor: "rgb(255, 99, 132, 0.3)",
-        borderColor: "rgba(255, 99, 132,1)",
+        data: [12,8,46,25,58,45],
+        backgroundColor: "#F35D4F",
+        borderColor: "#F35D4F",
         borderWidth: 1,
       },
-    ],
-    options: {
-      maintainAspectRatio: false,
-    }
+    ]
   };
 
 
@@ -26,48 +22,36 @@ function BarChart() {
     labels: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6"],
     datasets: [
       {
-        label: "# of Red Votes",
-        data: [12, ,85,45,85,85,78],
-        backgroundColor: "rgb(255, 99, 132, 0.3)",
-        borderColor: "rgba(255, 99, 132,1)",
+        data: [12,85,45,85,85,78],
+        backgroundColor: "#F35D4F",
+        borderColor: "#F35D4F",
         borderWidth: 1,
       },
-    ],
-    options: {
-      maintainAspectRatio: false,
-    }
+    ]
   };
 
   const data3 = {
     labels: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6"],
     datasets: [
       {
-        label: "# of Red Votes",
         data: [12, 19, 3, 5, 2, 3],
-        backgroundColor: "rgb(255, 99, 132, 0.3)",
-        borderColor: "rgba(255, 99, 132,1)",
+        backgroundColor: "#F35D4F",
+        borderColor: "#F35D4F",
         borderWidth: 1,
       },
-    ],
-    options: {
-      maintainAspectRatio: false,
-    }
+    ]
   };
 
   const data4 = {
     labels: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6"],
     datasets: [
       {
-        label: "# of Red Votes",
         data: [1,2,3,4,5,6],
-        backgroundColor: "rgb(255, 99, 132, 0.3)",
-        borderColor: "rgba(255, 99, 132,1)",
+        backgroundColor: "#F35D4F",
+        borderColor: "#F35D4F",
         borderWidth: 1,
       },
-    ],
-    options: {
-      maintainAspectRatio: false,
-    }
+    ]
   };
   // const options = {
   //   title: {
@@ -86,7 +70,10 @@ function BarChart() {
   //   },
   // };
 
-
+const options ={
+  responsive: true,
+  maintainAspectRatio: false,
+}
 
 
 
@@ -111,6 +98,7 @@ function BarChart() {
   
   return (
     <>
+    <div className="barchart">
       <div className="rectangle-6">
       <div className="dateBox">
       <h1 className="activehour">Active Hours</h1>
@@ -120,8 +108,9 @@ function BarChart() {
           </div>
       
       <div className="bar">
-        <Bar data={barData}  />
+        <Bar data={barData} options={options}  />
         </div>
+      </div>
       </div>
     </>
   );

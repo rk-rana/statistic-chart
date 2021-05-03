@@ -1,5 +1,7 @@
 import React from 'react';
 import { Gauge } from 'react-chartjs-2'
+import Date from "../date/dateRect"
+import "./Gauge.css"
 
 function GaugeChart(){
 
@@ -34,9 +36,19 @@ function GaugeChart(){
       
     
     return(
-        <div>
+        <>
+        <div className="gaugeuserchart">
+        <div className="gaugerect">
+        <div className="gauge-date">
+            <h1 className="user-retention">User Retenation</h1>
+            <div className="gDate">
+                <Date/>
+            </div>
+        </div>
             {/* <Gauge data={data}  options={options} valueLabel={valueLabel}/><h1>snflnf</h1> */}
         </div>
+        </div>
+        </>
     );
 }
 export default GaugeChart;

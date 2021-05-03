@@ -1,0 +1,21 @@
+.agebarchart{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+
+  .agetext{
+    margin: 0px;
+    height: 18px;
+    width: 26px;
+    color: #333;
+    font-family: "Google Sans";
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .agebar{
+    height: 144.25px;
+    width: 235.37px;
+  
+  }

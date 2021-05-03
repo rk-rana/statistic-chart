@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Pie } from "react-chartjs-2";
 import "./pie.css";
-import Date from "./dateRect";
+import Date from "../date/dateRect";
 // import Grid from '@material-ui/core/Grid';
 
 // chart1.canvas.parentNode.style.height = '128px';

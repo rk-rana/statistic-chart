@@ -15,7 +15,7 @@ const data = {
         "#00888E",
         '#8CDA7C',
       ],
-      cutout:"90%",
+      
 
     },
   ],
@@ -25,6 +25,7 @@ const data = {
 const options = {
   responsive: true,
   maintainAspectRatio: false,
+  cutout:'100%',
   plugins: {
     legend: {
       position: 'top',

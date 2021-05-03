@@ -1,12 +1,11 @@
 import React from 'react'
 import { Line } from 'react-chartjs-2'
-import "./chart.css";
+import "./line.css";
 
 const data = {
-  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+  labels: ['1-6','7-13','14-20','21-28'],
   datasets: [
     {
-      label: 'My First dataset',
       fill: false,
       lineTension: 0.1,
       backgroundColor: 'rgba(75,192,192,0.4)',
@@ -24,22 +23,19 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 1,
       pointHitRadius: 10,
-      data: [65, 59, 80, 81, 56, 55, 40]
+      data: [65, 59, 80, 81]
     }
   ]
 }
 
 const options = {
   responsive: true,
-  plugins: {
-    legend: {
-      position: 'top',
-    }}}
+}
 
 const LineChart = () => (
-  <><div style={{paddingTop:"61px"}}>
+  <><div className="linechart">
   <div className="progress">
-    <h1>Progress</h1>
+    <h1 className="progress-text">Progress</h1>
   </div>
     <div className='rectangle-3'>
     <Line data={data} options={options} />

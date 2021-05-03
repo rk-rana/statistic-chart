@@ -1,0 +1,46 @@
+.profilebarchart{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.profilerect {
+  box-sizing: border-box;
+  height: 140px;
+  width: 380px;
+  border-radius: 7px;
+  background-color: #FFF;
+  border: 1px solid #EEE;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.05)
+  }
+
+  .profile{
+    margin: 0px;
+    padding-left: 15px;
+    padding-top: 15px;
+    height: 18px;
+    width: 74px;
+    color: #111;
+    font-family: "Google Sans";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  .profilebar{
+    padding-left: 27.2px;
+    padding-top: 18px;
+    height: 69.2px;
+    width: 182.3px;
+  
+  }
+
+  .profiledate{
+    padding-left: 161px;
+    padding-top: 10px;
+  }
+
+  .profileinfo{
+    padding-left: 15px;
+    padding-top: 25px;
+     height: 69px;
+     width: 140px;
+   }

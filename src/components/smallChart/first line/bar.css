@@ -1,0 +1,32 @@
+.barchart{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.rectangle-6 {
+    box-sizing: border-box;
+    height: 336px;
+    width: 260px;
+    border-radius: 7px;
+    background-color: #FFF;
+    border: 1px solid #EEE;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.05);
+  }
+
+  .activehour{
+    padding-left: 15px;
+    padding-top: 15px;
+    height: 18px;
+    width: 83px;
+    color: #111;
+    font-family: "Google Sans";
+    font-size: 14px;
+    /* font-weight: 500; */
+    line-height: 18px;
+  }
+
+  .bar{
+    padding-top: 56px;
+    padding-left: 22.5px;
+    height: 176.5px;
+    width: 215px;
+  }

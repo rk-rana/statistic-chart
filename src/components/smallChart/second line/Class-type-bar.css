@@ -1,0 +1,121 @@
+.classbarchart{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.classrect {
+  box-sizing: border-box;
+  height: 300px;
+  width: 340px;
+  border-radius: 7px;
+  background-color: #FFF;
+  border: 1px solid #EEE;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.05);
+  }
+
+  .classtype{
+    padding-left: 15px;
+    padding-top: 15px;
+    margin: 0px;
+    height: 18px;
+    width: 70px;
+    color: #111;
+    font-family: "Google Sans";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+.classdate{
+  padding-left: 125px;
+  padding-top: 10px;
+}
+
+  .classbar{
+    padding-top: 58px;
+    padding-left: 22.5px;
+    height: 129.28px;
+    width: 294.14px;
+  
+  }
+
+  .dough-label{
+    padding-left: 42px;
+    padding-bottom: 20px;
+    height: 15px;
+    width: 112px;
+    display: flex;
+  }
+  
+
+
+.private{
+
+    padding-left: 31px;
+    display: flex;
+    align-items: baseline;
+}
+
+.group-private-class{
+
+    display: flex;
+    align-items: baseline;
+}
+
+  .group-class{
+    margin: 0px;;
+    height: 15px;
+    width: 67px;
+    color: #333;
+    font-family: "Google Sans";
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .private-class{
+    margin: 0px;
+    height: 15px;
+    width: 90px;
+    color: #333;
+    font-family: "Google Sans";
+    font-size: 12px;
+    line-height: 15px;
+    text-align: justify;
+  }
+
+  .group-dot{
+    width: 9px;
+    height: 9px;
+    background: #0C324F;
+    border-radius: 50%;
+  }
+
+  .private-dot{
+    height: 9px;
+    width: 9px;
+    background-color: #005C79;
+    border-radius: 50%;
+  }
+
+  .group-dot-class{
+    padding-left: 76px;
+    padding-top: 27px;
+    height: 15px;
+    width: 83px;
+  }
+
+  .private-dot-class{
+    padding-left: 20px;
+    padding-top: 27px;
+    height: 15px;
+    width: 85px;
+  }
+
+  .private{
+    padding-left: 31px;
+    display: flex;
+    align-items: center;
+  }
+
+  .group{
+    display: flex;
+    align-items: center;
+  }

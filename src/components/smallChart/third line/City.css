@@ -1,0 +1,21 @@
+.citypiechart{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+
+  .citytext{
+    margin: 0px;
+    height: 18px;
+    width: 26px;
+    color: #333;
+    font-family: "Google Sans";
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .citypie{
+    height: 195px;
+    width: 157px;
+  
+  }

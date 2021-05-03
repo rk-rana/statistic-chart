@@ -1,0 +1,21 @@
+.linechart{
+  padding-top: 21px;
+}
+.rectangle-3{
+    padding-left:26px;
+    height: 180px;
+    width: 236px;
+  }
+
+
+  .progress-text{
+    padding-left: 121px;
+    height: 18px;
+    width: 58px;
+    color: #111;
+    font-family: "Google Sans";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+

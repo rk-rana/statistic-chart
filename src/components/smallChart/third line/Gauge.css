@@ -1,0 +1,34 @@
+.gaugeuserchart{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.gaugerect{
+    box-sizing: border-box;
+    height: 270px;
+    width: 340px;
+    border-radius: 7px;
+    background-color: #FFF;
+    border: 1px solid #EEE;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.05);
+}
+
+
+.gauge-date{
+    display: flex;
+}
+
+.user-retention{
+    height: 18px;
+    width: 110px;
+    color: #111;
+    font-family: "Google Sans";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.gDate{
+    padding-left: 88px;
+    padding-top: 10px;
+}

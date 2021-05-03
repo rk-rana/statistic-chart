@@ -1,8 +1,8 @@
 import React from "react";
-import DoughtNut from "../smallChart/Doughnut";
-import Line from "../smallChart/Line";
+import DoughtNut from "../first line/Doughnut";
+import Line from "../first line/Line";
 import "./doughtnutLine.css"
-import Date from "../smallChart/dateRect";
+import Date from "../date/dateRect";
 
 function doughtLineChart() {
   return (

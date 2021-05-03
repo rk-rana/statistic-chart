@@ -1,0 +1,31 @@
+.demobody{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.demorect{
+    box-sizing: border-box;
+    height: 270px;
+    width: 749px;
+    border-radius: 7px;
+    background-color: #FFF;
+    border: 1px solid #EEE;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.05)
+}
+.demographic-date{
+    display: flex;
+}
+
+.demographic{
+    height: 18px;
+    width: 96px;
+    color: #111;
+    font-family: "Google Sans";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+
+.Demomain{
+    display: flex;
+}

@@ -13,23 +13,7 @@
     box-shadow: 0 0 4px 0 rgba(0,0,0,0.05);
   }
 
-  .rectangle-big {
-    height: 1106px;
-    width: 1180px;
-    border-radius: 7px;
-    background-color: #FFF;
-    box-shadow: 0 0 4px 0 rgba(0,0,0,0.05);
-  }
 
-  /* .rectangle-9 {
-    box-sizing: border-box;
-    height: 336px;
-    width:100%;
-    border-radius: 7px;
-    background-color: #FFF;
-    border: 1px solid #EEE;
-    box-shadow: 0 0 4px 0 rgba(0,0,0,0.05);
-  } */
 
 
   .guitar{
@@ -45,17 +29,17 @@
   }
 
 
-  .doughtNut{
-    height: 174px;
+  .secondline{
+    display: flex;
+  }
+  .rating-profile{
+    display: flex;
+    align-content: stretch;
+    flex-direction: column;
   }
 
-  .rectangle-5{
-    padding-right: 30px;
+
+  .thirdline{
+    display: flex;
   }
 
-  /* .rect-between{
-    padding-top: 61px;
-    height: 260px;
-    width: 1px;
-    background-color: #EEE;
-  } */
