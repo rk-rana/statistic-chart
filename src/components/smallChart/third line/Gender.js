@@ -6,10 +6,10 @@ import "./Gender.css";
 function BarChart() {
   // const [{ data1, data2, data3 }, dispatch] = useStateValue();
   const data = {
-    labels: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6"],
+    labels: ["Male","Female","Unknown"],
     datasets: [
       {
-        data: [12,8,46,25,58,45],
+        data: [12,8,15],
         backgroundColor: "#F35D4F",
         borderColor: "#F35D4F",
         borderWidth: 1,
@@ -25,7 +25,23 @@ const options ={
   maintainAspectRatio: false,
   legend: {
     display: false
-  }
+  },
+  scales: {
+    xAxes: [{
+       gridLines: {
+          display: false
+       },
+       barPercentage: 0.2
+    }],
+    yAxes: [{
+       gridLines: {
+          display: false
+       },
+       ticks: {
+        display: false
+    }
+    }]
+}
 }
 
 

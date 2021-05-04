@@ -72,6 +72,22 @@ function BarChart() {
 const options ={
   responsive: true,
   maintainAspectRatio: false,
+  scales: {
+    xAxes: [{
+       gridLines: {
+          display: false
+       },
+       barPercentage : 0.5
+    }],
+    yAxes: [{
+       gridLines: {
+          display: false
+       },
+       ticks: {
+        display: false
+    }
+    }]
+},
   legend: {
     display: false
   }

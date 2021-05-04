@@ -89,6 +89,7 @@
   }
 
   .private-dot{
+    margin-right: 5px;
     height: 9px;
     width: 9px;
     background-color: #005C79;

@@ -75,7 +75,23 @@ const options ={
   maintainAspectRatio: false,
   legend: {
     display: false
-  }
+  },
+  scales: {
+    xAxes: [{
+       gridLines: {
+          display: false
+       },
+       barPercentage : 0.5
+    }],
+    yAxes: [{
+       gridLines: {
+          display: false
+       },
+       ticks: {
+        display: false
+    }
+    }]
+}
 }
 
 

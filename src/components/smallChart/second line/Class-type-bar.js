@@ -50,7 +50,14 @@ function BarChart() {
         borderColor: "#0C324F",
         borderWidth: 1,
       },
+      {
+        label: 'Traffic tickets',
+        data: [1, 3,6,5,2,8,7],
+        backgroundColor: '#005C79'
+     }
     ],
+    
+ 
   };
   // const options = {
   //   title: {
@@ -72,9 +79,29 @@ function BarChart() {
   const options = {
     responsive: true,
     maintainAspectRatio: false,
+
     legend: {
       display: false,
     },
+    scales: {
+      xAxes: [{
+        gridLines:{
+          display:false,
+          drawBorder: true
+        },
+        barPercentage : 0.4,
+         stacked: true // this should be set to make the bars stacked
+      }],
+      yAxes: [{
+        gridLines:{
+          display:false
+        },
+        ticks: {
+          display: false
+      },
+         stacked: true // this also..
+      }]
+   }
   };
 
   const [barData, setBarData] = useState(data3);

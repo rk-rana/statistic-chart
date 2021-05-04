@@ -2,34 +2,45 @@ import React from 'react'
 import { Line } from 'react-chartjs-2'
 import "./line.css";
 
+
+const DemoData = {
+    data: [20, 15, 60, 60, 65, 30, 70],
+    lineTension: 0,
+    fill: false,
+  borderColor: '#00888E'
+}
+const EnrollData =    {
+  data: [0, 59, 75, 20, 20, 55, 40],
+  lineTension: 0,
+  fill: false,
+  borderColor: '#8CDA7C'
+}
+
 const data = {
   labels: ['1-6','7-13','14-20','21-28'],
-  datasets: [
-    {
-      fill: false,
-      lineTension: 0.1,
-      backgroundColor: 'rgba(75,192,192,0.4)',
-      borderColor: 'rgba(75,192,192,1)',
-      borderCapStyle: 'butt',
-      borderDash: [],
-      borderDashOffset: 0.0,
-      borderJoinStyle: 'miter',
-      pointBorderColor: 'rgba(75,192,192,1)',
-      pointBackgroundColor: '#fff',
-      pointBorderWidth: 1,
-      pointHoverRadius: 5,
-      pointHoverBackgroundColor: 'rgba(75,192,192,1)',
-      pointHoverBorderColor: 'rgba(220,220,220,1)',
-      pointHoverBorderWidth: 2,
-      pointRadius: 1,
-      pointHitRadius: 10,
-      data: [65, 59, 80, 81]
-    }
-  ]
+  datasets: [DemoData,EnrollData]
 }
 
 const options = {
   responsive: true,
+  scales: {
+    xAxes: [{
+       gridLines: {
+          display: false
+       }
+    }],
+    yAxes: [{
+       gridLines: {
+          display: false
+       },
+       ticks: {
+        display: false
+    }
+    }]
+},
+legend: {
+  display: false
+}
 }
 
 const LineChart = () => (

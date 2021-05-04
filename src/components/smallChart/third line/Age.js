@@ -5,7 +5,7 @@ import "./Age.css";
 function BarChart() {
   // const [{ data1, data2, data3 }, dispatch] = useStateValue();
   const data = {
-    labels: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6"],
+    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
     datasets: [
       {
         data: [12,8,46,25,58,45],
@@ -13,7 +13,10 @@ function BarChart() {
         borderColor: "##005C79",
         borderWidth: 1,
       },
-    ]
+    ],
+    gridLines: {
+      display: false
+   }
   };
 
 
@@ -21,9 +24,26 @@ function BarChart() {
 const options ={
   responsive: true,
   maintainAspectRatio: false,
+
   legend: {
     display: false
-  }
+  },
+  scales: {
+    xAxes: [{
+       gridLines: {
+          display: false
+       },
+       barPercentage: 0.6
+    }],
+    yAxes: [{
+       gridLines: {
+          display: false
+       },
+       ticks: {
+        display: false
+    }
+    }]
+}
 }
 
 

@@ -3,6 +3,7 @@ import { Bar } from "react-chartjs-2";
 import "./bar.css";
 import Date from "../date/dateRect"
 
+
 function BarChart() {
   // const [{ data1, data2, data3 }, dispatch] = useStateValue();
   const data = {
@@ -73,6 +74,25 @@ function BarChart() {
 const options ={
   responsive: true,
   maintainAspectRatio: false,
+  scales: {
+    xAxes: [{
+       gridLines: {
+          display: false
+       },
+       barPercentage : 0.5,
+    }],
+    yAxes: [{
+       gridLines: {
+          display: false
+       },
+       ticks: {
+        display: false
+    }
+    }]
+},
+legend: {
+  display: false
+}
 }
 
 

@@ -83,6 +83,11 @@ function Chart1() {
   const options = {
     responsive: true,
     maintainAspectRatio: false,
+    elements: {
+      arc: {
+          borderWidth: 0
+      }
+  },
     plugins: {
       legend: {
         position: "top",

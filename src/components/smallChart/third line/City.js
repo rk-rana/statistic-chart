@@ -14,8 +14,8 @@ function Chart1() {
     datasets: [
       {
         label: "My First Dataset",
-        data: [30, 70],
-        backgroundColor: ["#005C79", "#0C324F"],
+        data: [30,70,56,45,30],
+        backgroundColor: ["#0B223B", "#6B79BB","#F99E2A","#298F87","#F15D4F"],
         hoverOffset: 4,
       },
     ],
@@ -49,6 +49,11 @@ function Chart1() {
         position: "top",
       },
     },
+    elements: {
+      arc: {
+          borderWidth: 0
+      }
+  }
     // total: pieData.datasets[0].data.reduce((x,y)=>x+y)
   };
 

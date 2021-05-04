@@ -25,7 +25,12 @@ const data = {
 const options = {
   responsive: true,
   maintainAspectRatio: false,
-  cutout:'100%',
+  elements: {
+    arc: {
+        borderWidth: 0
+    }
+},
+cutoutPercentage: 80,
   plugins: {
     legend: {
       position: 'top',

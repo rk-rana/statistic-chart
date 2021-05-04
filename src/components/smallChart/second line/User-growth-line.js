@@ -10,9 +10,11 @@ function BarChart() {
     datasets: [
       {
         data: [12,8,46,25,58,45],
-        backgroundColor: "#F35D4F",
-        borderColor: "#F35D4F",
+        backgroundColor: " #298F87",
+        borderColor: " #298F87",
         borderWidth: 1,
+        lineTension: 0,
+        fill: false,
       },
     ]
   };
@@ -23,9 +25,11 @@ function BarChart() {
     datasets: [
       {
         data: [12,85,45,85,85,78],
-        backgroundColor: "#F35D4F",
-        borderColor: "#F35D4F",
+        backgroundColor: " #298F87",
+        borderColor: " #298F87",
         borderWidth: 1,
+        lineTension: 0,
+        fill: false,
       },
     ]
   };
@@ -35,9 +39,11 @@ function BarChart() {
     datasets: [
       {
         data: [12, 19, 3, 5, 2, 3],
-        backgroundColor: "#F35D4F",
-        borderColor: "#F35D4F",
+        backgroundColor: " #298F87",
+        borderColor: " #298F87",
         borderWidth: 1,
+        lineTension: 0,
+        fill: false,
       },
     ]
   };
@@ -47,9 +53,12 @@ function BarChart() {
     datasets: [
       {
         data: [1,2,3,4,5,6],
-        backgroundColor: "#F35D4F",
-        borderColor: "#F35D4F",
+        backgroundColor: " #298F87",
+        borderColor: " #298F87",
         borderWidth: 1,
+        lineTension: 0,
+        fill: false,
+        
       },
     ]
   };
@@ -75,7 +84,19 @@ const options ={
   maintainAspectRatio: false,
   legend: {
     display: false
-  }
+  },
+  scales: {
+    xAxes: [{
+       gridLines: {
+          display: false
+       }
+    }],
+    yAxes: [{
+       gridLines: {
+          display: false
+       }
+    }]
+}
 }
 
 
